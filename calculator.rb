@@ -17,4 +17,7 @@ code.each_char do |digit|
     multiplier = 4 - multiplier
 end
 
-puts multiplied_list
+result = 10 - (multiplied_list.sum() % 10)
+
+puts "This is your full ISBN-13 code"
+puts code + result.to_s
