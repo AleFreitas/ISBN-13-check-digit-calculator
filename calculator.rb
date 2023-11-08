@@ -18,6 +18,7 @@ code.each_char do |digit|
 end
 
 result = 10 - (multiplied_list.sum() % 10)
+result = (result == 10) ? 0 : result
 
 puts "This is your full ISBN-13 code"
 puts code + result.to_s
