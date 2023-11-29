@@ -5,6 +5,11 @@ complete
 =end
 
 def get_full_isbn13(code)
+    # Ensures that code is a string
+    unless code.is_a?(String)
+        raise ArgumentError, 'the argument must be a string'
+    end
+
     multiplier = 1
     multiplied_list = []
 
