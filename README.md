@@ -18,6 +18,14 @@ This is a simple calculator in ruby that receives a ISBN-13 barcode without a ch
     ```bash
     ruby calculator.rb
     ```
+4. If you wish to execute automated tests, ensure RSpec is installed by running the command:
+   ```bash
+     gem install rspec
+   ```
+   The, execute the tests with:
+   ```bash
+     rspec calculator_spec.rb
+   ```
    (Note: You need to have Ruby installed on your machine. You can find installation instructions [here](https://www.ruby-lang.org/en/documentation/installation/).)
 
 ## Functionality
